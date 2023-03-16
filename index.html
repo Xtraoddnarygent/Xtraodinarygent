@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iNDEX.HTML</title>
+</head>
+<body>
+    <H1>REGISTRATION FORM</H1>
+    <form action="Thankyou.html">
+        <fieldset>
+            <legend>
+                COMPLETE THE FOLLOWING INFORMATION
+            </legend>
+            <label for="USERNAME"> USERNAME</label>
+            <input type="text" id="USERNMAE" placeholder="your name">
+            
+            <br><br><label for="email">EMAIL</label>
+            <input type="email" id="email" placeholder="your email">
+
+            <br><br><label for="Pass">PASSWORD</label>
+            <input type="password" id="Pass">
+
+            <br><br><label>GENDER:</label><input type="checkbox" id="Male" value="male" name="gene" checked>
+            <label for="male">male</label>
+            <input type="checkbox" id="female" value="female" name="gene">
+            <label for="female">female </label>
+
+        </fieldset>
+        <hr>
+        <fieldset>
+            <legend>Upload your profile information:</legend>
+            <label for="passport"> Upload your Passport</label>
+            <input type="file" id="passport">
+            <br><br><h3> Chose an option</h3>
+            <select>
+                <option> Web developmet</option>
+                <option> IT management</option>
+                <option> Data structure </option>
+                <option> Python Programing</option>
+            </select>
+            <br><br><label for="age">Are you up to 18? </label>
+            <input type="radio" id="No" name="age" required>
+            <label for="yes">Yes</label>
+            <input type="radio" id="no"name="age" required>
+            <label for="no">No</label>
+        </fieldset>
+
+        <p>For more information</p>
+        <textarea></textarea>
+        <br><br><input type="Submit">
+    </form>
+    </body>
+    </html>
